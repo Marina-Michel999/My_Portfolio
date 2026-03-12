@@ -12,7 +12,7 @@ const projects = [
     title: "Shopinity E-commerce Store",
     description:
       "Full-featured online store built with React and Tailwind CSS. Supports API-based authentication, product browsing, cart, wishlist, checkout, and payment.",
-    imgSource: "../assets/e-commerce.png",
+    imgSource: "assets/e-commerce.png",
     videoSource: "",
     technologies: ["React", "Tailwind CSS", "REST API", "JavaScript"],
     liveDemo: "https://e-commerce-8ign.vercel.app/",
@@ -22,7 +22,7 @@ const projects = [
     title: "Movie App",
     description:
       "A responsive movie browsing application that fetches movie data from TheMovieDB API. Includes features such as search, trending movies, movie details, and categories.",
-    imgSource: "../assets/movie-app.png",
+    imgSource: "assets/movie-app.png",
     videoSource: "",
     technologies: ["JavaScript", "Bootstrap", "TheMovieDB API", "HTML", "CSS"],
     liveDemo: "https://marina-michel999.github.io/Movie-App/",
@@ -32,7 +32,7 @@ const projects = [
     title: "Weather App",
     description:
       "A weather forecast application that fetches real-time weather data from an external API and displays temperature, humidity, and location information in a clean and responsive interface.",
-    imgSource: "../assets/weather-app.png",
+    imgSource: "assets/weather-app.png",
     videoSource: "",
     technologies: ["JavaScript", "Bootstrap", "Weather API", "HTML", "CSS"],
     liveDemo: "https://marina-michel999.github.io/Weather-app/",
@@ -42,7 +42,7 @@ const projects = [
     title: "hang man game",
     description:
       "Hangman is a simple word guessing game The project was built using HTML, CSS, and JavaScript",
-    imgSource: "../assets/hang-man.png",
+    imgSource: "assets/hang-man.png",
     videoSource: "",
     technologies: ["HTML" , "CSS" , "JavaScript"],
     liveDemo: "https://e-commerce-8ign.vercel.app/",
@@ -52,7 +52,7 @@ const projects = [
     title: "CRUD App",
     description:
       "A simple CRUD application that allows users to create, read, update, and delete data directly in the browser using localStorage with a clean and responsive UI.",
-    imgSource: "../assets/Crud.png",
+    imgSource: "assets/Crud.png",
     videoSource: "",
     technologies: ["JavaScript", "Bootstrap", "LocalStorage", "HTML", "CSS"],
     liveDemo: "https://marina-michel999.github.io/CRUD-app/",
