@@ -126,7 +126,7 @@ function displayProjects() {
               </div>
               <div class=" video-demo-layer bg-tranparent z-3 d-none  ">
                 <div  class="i-container pe-3 pt-3 d-flex justify-content-end">
-                    <i onclick="removeVideo(${i})" class="fa-regular fa-circle-xmark text-white rounded-circle fs-1 bg-danger "></i>             
+                    <i onclick="removeVideo(${i})" class=" d-none fa-regular fa-circle-xmark text-white rounded-circle fs-1 bg-danger "></i>             
                 </div>
                     <video class="w-100 h-90 object-fit-contain" id="video" src="${projects[i].videoSource}" controls="" poster="${projects[i].imgSource}"></video>
               </div>
