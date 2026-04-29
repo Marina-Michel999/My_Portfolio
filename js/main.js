@@ -18,6 +18,16 @@ const projects = [
     liveDemo: "https://e-commerce-8ign.vercel.app/",
     github: "https://github.com/Marina-Michel999/e-commerce"
   },
+  {
+    title: "todo app",
+    description:
+      "A responsive and user-friendly Todo application built with React and Tailwind CSS, designed to help users organize and manage their daily tasks efficiently. The app provides a clean interface with dynamic task handling and filtering options for better productivity.",
+    imgSource: "assets/todo-app.png",
+    videoSource: "",
+    technologies: ["React", "Tailwind CSS",  "JavaScript", "HTML"],
+    liveDemo: "https://todo-app-12sp.vercel.app/",
+    github: "https://github.com/Marina-Michel999/todo-app"
+  },
     {
     title: "Movie App",
     description:
