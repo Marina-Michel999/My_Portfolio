@@ -130,13 +130,13 @@ function displayProjects() {
                 <p data-aos="fade-up" data-aos-duration="1300"><span class="text-main">Live demo : </span><a class="text-decoration-underline" href="${projects[i].liveDemo}"> ${projects[i].liveDemo}</a></p>
                 <p data-aos="fade-up" data-aos-duration="1300"><span class="text-main">GitHub : </span><a class="text-decoration-underline" href="${projects[i].github}"> ${projects[i].github}</a></p>
                 <div class=" d-flex ">
-                <button data-aos="fade-up"  data-aos-duration="1300" onclick="addVideo(${i})" type="button" class="btn video-demo-btn align-self-end py-2 ps-4 pe-4 mt-3 bg-main fs-5  text-white  hover-main">video demo</button>
+                <button data-aos="fade-up"  data-aos-duration="1300" onclick="addVideo(${i})" type="button" class="btn d-none video-demo-btn align-self-end py-2 ps-4 pe-4 mt-3 bg-main fs-5  text-white  hover-main">video demo</button>
                 </div>
 
               </div>
               <div class=" video-demo-layer bg-tranparent z-3 d-none  ">
                 <div  class="i-container pe-3 pt-3 d-flex justify-content-end">
-                    <i onclick="removeVideo(${i})" class=" d-none fa-regular fa-circle-xmark text-white rounded-circle fs-1 bg-danger "></i>             
+                    <i onclick="removeVideo(${i})" class="  fa-regular fa-circle-xmark text-white rounded-circle fs-1 bg-danger "></i>             
                 </div>
                     <video class="w-100 h-90 object-fit-contain" id="video" src="${projects[i].videoSource}" controls="" poster="${projects[i].imgSource}"></video>
               </div>
