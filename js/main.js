@@ -45,8 +45,8 @@ const projects = [
     imgSource: "assets/hang-man.png",
     videoSource: "",
     technologies: ["HTML" , "CSS" , "JavaScript"],
-    liveDemo: "https://e-commerce-8ign.vercel.app/",
-    github: "https://github.com/Marina-Michel999/e-commerce"
+    liveDemo: "https://marina-michel999.github.io/hangman-game/",
+    github: "https://github.com/Marina-Michel999/hangman-game"
   },
   {
     title: "CRUD App",
@@ -120,7 +120,7 @@ function displayProjects() {
                 <p data-aos="fade-up" data-aos-duration="1300"><span class="text-main">Live demo : </span><a class="text-decoration-underline" href="${projects[i].liveDemo}"> ${projects[i].liveDemo}</a></p>
                 <p data-aos="fade-up" data-aos-duration="1300"><span class="text-main">GitHub : </span><a class="text-decoration-underline" href="${projects[i].github}"> ${projects[i].github}</a></p>
                 <div class=" d-flex ">
-                <button data-aos="fade-up" data-aos-duration="1300" onclick="addVideo(${i})" type="button" class="btn video-demo-btn align-self-end py-2 ps-4 pe-4 mt-3 bg-main fs-5  text-white  hover-main">video demo</button>
+                <button data-aos="fade-up"  data-aos-duration="1300" onclick="addVideo(${i})" type="button" class="btn video-demo-btn align-self-end py-2 ps-4 pe-4 mt-3 bg-main fs-5  text-white  hover-main">video demo</button>
                 </div>
 
               </div>
