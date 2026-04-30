@@ -18,6 +18,16 @@ const projects = [
     liveDemo: "https://e-commerce-8ign.vercel.app/",
     github: "https://github.com/Marina-Michel999/e-commerce"
   },
+   {
+    title: "circlo social app",
+    description:
+      "Developed a full-featured social media application using Next.js and TypeScript, implementing scalable state management with Redux Toolkit and a polished, responsive interface using Material UI. The platform supports post creation, content interaction, and efficient data handling, delivering a seamless and user-friendly experience.",
+    imgSource: "assets/social-app.png",
+    videoSource: "",
+    technologies: ["Next.js", "Material UI", "TypeScript", "Redux Toolkit", "REST API"],
+    liveDemo: "https://social-app-jzwh.vercel.app/",
+    github: "https://github.com/Marina-Michel999/social-app"
+  },
   {
     title: "todo app",
     description:
